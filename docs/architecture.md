@@ -104,7 +104,7 @@ C4Deployment
     Rel(browser, nginx, "HTTPS", "443")
     Rel(nginx, api, "HTTP", "8000")
     Rel(api, db, "TCP", "5432")
-```
+``` 
 Knowledge Gaps
 File Storage: Need to learn how to migrate from local storage to S3 object storage for scalability.
 
