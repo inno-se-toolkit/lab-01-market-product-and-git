@@ -206,7 +206,7 @@ This and all other lab assignments will simulate real-life engineering practices
   
    </details>
 
-4. <details><summary> (Optional) Set up a free coding agent to help you with the lab (click to expand).</summary>
+4. <details><summary> (Optional) Set up a free <a href="https://docs.aws.amazon.com/prescriptive-guidance/latest/agentic-ai-patterns/coding-agents.html">coding agent</a> to help you with the lab (click to expand).</summary>
 
     You may use any coding agent with any model. `OpenRouter` provides [free models](https://openrouter.ai/collections/free-models).
 
