@@ -1,0 +1,47 @@
+name: Close PRs from forks
+
+on:
+  pull_request:
+    types: [opened, synchronize]
+
+jobs:
+  check-and-close-fork-prs:
+    runs-on: ubuntu-slim
+    
+    steps:
+      - name: Check if PR is from a fork
+        run: |
+          echo "Repository: ${{ github.repository }}"
+          echo "Base Repository: ${{ github.event.pull_request.base.repo.full_name }}"
+          echo "Head Repository: ${{ github.event.pull_request.head.repo.full_name }}"
+          
+          if [[ "${{ github.event.pull_request.head.repo.full_name }}" != "${{ github.event.pull_request.base.repo.full_name }}" ]]; then
+            echo "PR is from a fork. Preparing to close..."
+            echo "IS_FORK=true" >> $GITHUB_ENV
+          else
+            echo "PR is from the same repository. Skipping closure..."
+            echo "IS_FORK=false" >> $GITHUB_ENV
+          fi
+      
+      - name: Close fork PRs with message
+        if: env.IS_FORK == 'true'
+        uses: actions/github-script@v8
+        with:
+          script: |
+            const { owner, repo, number } = context.issue;
+            
+            // Add a comment to the PR
+            await github.rest.issues.createComment({
+              owner,
+              repo,
+              issue_number: number,
+              body: "Please make PRs in your fork, not this repo."
+            });
+            
+            // Close the pull request
+            await github.rest.pulls.update({
+              owner,
+              repo,
+              pull_number: number,
+              state: 'closed'
+            });
