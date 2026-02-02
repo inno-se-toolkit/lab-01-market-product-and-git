@@ -39,7 +39,7 @@ Learn more about the deployment diagrams on [wiki](https://en.wikipedia.org/wiki
 > [!NOTE]
 > Visualizing the architecture is not the same as designing the architecture.
 >
-> To design the architecture of a system, you need to consider the architectural drivers. This approach is outlined in the optional [Task 4](./README.md#4-optional-update-architecture).
+> To design the architecture of a system, you need to consider the architectural drivers.
 
 ### Visualize the architecture - `Draw.io`
 
