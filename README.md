@@ -10,7 +10,7 @@ Imagine you're choosing which product team to join. In this lab, you'll explore 
 ├─────────────────────────────────────────────────────────────────────────────┤
 │                                                                             │
 │   Setup ──► Task 0 ──► Task 1 ──► Task 2 ──► Task 3 ──► Optional ──► Done  │
-│   (solo)   (git       (product   (roles)    (skills)   (pick one)          │
+│   (solo)   (git       (product   (roles)    (skills)   (bonus)             │
 │             intro)     arch)                                                │
 │                              ▲                                              │
 │                              │                                              │
@@ -77,7 +77,7 @@ Follow the [setup guide](./docs/setup.md) to:
 | [Task 2: Roles](./docs/tasks/task-2-roles.md) | `docs/roles-and-skills.md` | Role assignments, responsibilities |
 | [Task 3: Skills](./docs/tasks/task-3-skills.md) | Skills self-assessment | Genuine reflection, realistic goals |
 
-## Optional Tasks (Pick One)
+## Optional Tasks
 
 | Task | What You'll Learn |
 |------|------------------|
