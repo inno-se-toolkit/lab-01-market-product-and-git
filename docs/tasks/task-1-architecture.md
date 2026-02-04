@@ -9,7 +9,7 @@
 
 ## Context
 
-Imagine you're considering joining one of these product teams. Before you decide, you want to understand what the product does and how it's built.
+Imagine you have joined one of these product teams. On your first days, you want to understand what the product does and how it is structured.
 
 ## Available Products
 
