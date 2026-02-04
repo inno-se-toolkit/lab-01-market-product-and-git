@@ -2,7 +2,7 @@
 
 **Time:** ~25-30 min
 
-**Purpose:** Understand how a real software product is structured by examining its components, data flow, and deployment.
+**Purpose:** Understand how a real software product may be structured by examining its components, data flow, and deployment.
 
 > [!IMPORTANT]
 > You and your partner must pick **different products**. This way, during reviews, you'll learn about each other's products.
