@@ -59,7 +59,7 @@ If you're new to git, [read the workflow guide](./docs/git-workflow.md) before s
 
 Follow the [setup guide](./docs/setup.md) to:
 - Fork and clone the repo
-- Find a partner (you must pick **different products**)
+- Find a partner
 - Set up VS Code
 
 ### 2. Start with Task 0

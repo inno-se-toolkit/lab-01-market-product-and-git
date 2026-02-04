@@ -34,14 +34,9 @@ Complete these steps before starting the tasks.
 
 ## 2. Find a partner and add them as collaborator
 
-> [!IMPORTANT]
-> You and your partner must pick **different products** to analyze in Task 1.
-> This way, during PR reviews, you'll learn about each other's products.
-
 1. Find a classmate to be your partner for this lab.
 2. In the repo `Settings` -> `Collaborators` -> `Add people`, add your partner as a collaborator.
 3. Make sure your partner has accepted the invitation sent to their email.
-4. Agree on who picks which product (Yandex Go, Telegram, or Wildberries).
 
 ## 3. Set up your local tools
 
