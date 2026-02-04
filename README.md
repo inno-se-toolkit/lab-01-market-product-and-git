@@ -147,4 +147,5 @@ Practice git on your own time:
 
 - [ ] Read this [git tutorial](https://hackmd.io/@aabounegm/SWP-git) for concepts and workflows
 - [ ] Practice on [Learn Git Branching](https://learngitbranching.js.org/) (focus on merge/rebase)
+- [ ] Watch [Git MERGE vs REBASE](https://www.youtube.com/watch?v=0chZFIZLR_0) to understand the difference
 - [ ] Read about [GitHub flow](https://docs.github.com/en/get-started/using-github/github-flow)

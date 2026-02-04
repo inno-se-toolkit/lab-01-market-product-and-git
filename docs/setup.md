@@ -47,12 +47,7 @@ Complete these steps before starting the tasks.
     git config --global user.email "your@email"
     ```
 
-2. <details><summary>(Optional) Learn more about Git.</summary>
-
-   - [How Git Works: Explained in 4 Minutes](https://www.youtube.com/watch?v=e9lnsKot_SQ)
-   - [Git MERGE vs REBASE: Everything You Need to Know](https://www.youtube.com/watch?v=0chZFIZLR_0)
-
-   </details>
+2. (Optional) New to git? Watch [How Git Works: Explained in 4 Minutes](https://www.youtube.com/watch?v=e9lnsKot_SQ).
 
 3. Install [`VS Code`](https://code.visualstudio.com/).
 
