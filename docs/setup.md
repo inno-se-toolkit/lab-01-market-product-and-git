@@ -51,20 +51,27 @@ Complete these steps before starting the tasks.
 
 3. Install [`VS Code`](https://code.visualstudio.com/).
 
-4. <details><summary>Skim VS Code docs.</summary>
+4. Get familiar with VS Code:
 
-    - [`Basic Layout`](https://code.visualstudio.com/docs/getstarted/userinterface#_basic-layout) - Basic UI elements.
-    - [`Command Palette`](https://code.visualstudio.com/docs/getstarted/userinterface#_command-palette) - How to use commands.
-    - [`Terminal`](https://code.visualstudio.com/docs/terminal/getting-started) - How to run terminal commands.
-    - [`Source Control`](https://code.visualstudio.com/docs/sourcecontrol/overview) - How to use Git via VS Code UI.
-    - [`Extension Marketplace`](https://code.visualstudio.com/docs/configure/extensions/extension-marketplace) - How to install extensions.
-    - [Keyboard shortcuts](https://code.visualstudio.com/docs/configure/keybindings#_keyboard-shortcuts-reference).
+    **Open the Terminal** (you'll use this for git commands):
+    - Press `` Ctrl+` `` (or `` Cmd+` `` on Mac)
+    - Or: Menu → `View` → `Terminal`
+    - You should see a panel at the bottom where you can type commands
 
-   </details>
+    ![VS Code Terminal](./images/vscode-terminal.png)
 
-5. Enable auto-save and format-on-save:
-    - [`files.autoSave`](https://code.visualstudio.com/docs/editing/codebasics#_save-auto-save)
-    - [`editor.formatOnSave`](https://code.visualstudio.com/docs/editing/codebasics#_formatting)
+    **Find Source Control** (you'll use this to commit changes):
+    - Click the branch icon in the left sidebar (third icon from top)
+    - Or press `Ctrl+Shift+G` (`Cmd+Shift+G` on Mac)
+    - You should see a panel showing changed files
+
+    ![VS Code Source Control](./images/vscode-source-control.png)
+
+5. Enable helpful settings:
+    - **Auto-save:** Menu → `File` → `Auto Save` (click to enable)
+      - *Why:* Saves your work automatically so you don't lose changes if VS Code crashes
+    - **Format-on-save:** See [VS Code docs](https://code.visualstudio.com/docs/editing/codebasics#_formatting)
+      - *Why:* Automatically formats your code when you save, keeping it clean and readable
 
 ## 4. Clone and open the repository
 
@@ -84,10 +91,23 @@ Complete these steps before starting the tasks.
 
 ## 5. Set up VS Code extensions
 
-1. Install the recommended extensions when VS Code suggests them (listed in [`.vscode/extensions.json`](../.vscode/extensions.json)).
-2. Sign in to your GitHub account:
-    - In the `Activity Bar`, click `Accounts`
-    - Click `Sign in with GitHub ...`
+1. **Install recommended extensions:**
+   - When you open the repo, VS Code will show a popup: "Do you want to install the recommended extensions?"
+   - Click `Install`
+
+   ![VS Code Extensions Popup](./images/vscode-extensions-popup.png)
+
+   If you missed the popup:
+   - Press `Ctrl+Shift+X` (`Cmd+Shift+X` on Mac) to open Extensions
+   - Type `@recommended` in the search bar
+   - Install all recommended extensions
+
+2. **Sign in to GitHub:**
+   - Click the person icon at the bottom of the left sidebar (`Accounts`)
+   - Click `Sign in with GitHub to use GitHub Pull Requests...`
+   - Follow the prompts in your browser
+
+   ![VS Code GitHub Sign In](./images/vscode-github-signin.png)
 
 3. <details><summary>(Optional) Check GitLens.</summary>
 
