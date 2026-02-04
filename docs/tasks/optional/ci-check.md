@@ -6,7 +6,7 @@
 
 ## What's CI?
 
-**Continuous Integration (CI)** automatically runs checks (tests, linting, etc.) whenever you push code. This catches problems early, before they're merged into `main`.
+**Continuous Integration (CI)** automatically runs checks (tests, linting, etc.) whenever you push code. This catches problems early, before they're merged.
 
 ## Steps
 
