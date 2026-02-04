@@ -47,6 +47,8 @@ A **branch** is a separate line of development where you make changes without af
 
 A **commit** saves a snapshot of your changes with a message explaining what you did.
 
+> **What is staging?** Before committing, you choose which changed files to include - this is called "staging". Think of it as selecting which items to pack before shipping a box.
+
 **Commit message format:**
 ```
 <type>: <short description>
@@ -131,7 +133,7 @@ The issue will auto-close if you used `Closes #<number>` in the PR.
 | Command | What it does |
 |---------|--------------|
 | `git status` | Show which files have changed |
-| `git add <file>` | Stage a file for commit |
+| `git add <file>` | Mark a file to be included in the next commit |
 | `git commit -m "message"` | Create a commit |
 | `git push` | Upload commits to GitHub |
 | `git pull` | Download changes from GitHub |
@@ -151,9 +153,7 @@ git add . && git commit -m "message"
 
 **"I need to undo my last commit"**
 ```bash
-git reset --soft HEAD~1   # Keeps changes staged
-# or
-git reset HEAD~1          # Keeps changes unstaged
+git reset HEAD~1          # Undo commit, keep your changes
 ```
 
 **"My push was rejected"**
