@@ -16,11 +16,11 @@ Title: `[Optional] Skill development strategy`
 
 ### 2. Choose One Skill
 
-From your Task 3 analysis, pick **one skill** to focus on this semester.
+From your Task 3 analysis, pick **one skill** to start developing.
 
 Choose wisely:
 - Something you genuinely want to learn
-- Something achievable in one semester alongside other coursework
+- Something you can make progress on in the coming weeks
 - Something with clear, accessible learning resources
 
 ### 3. Create `docs/skill-development-strategy.md`
@@ -48,7 +48,7 @@ Examples:
 
 #### `## Learning Plan`
 
-Create a week-by-week plan for the semester.
+Create a plan for the next couple of weeks. Keep it realistic.
 
 ```markdown
 ### Resources I'll Use
@@ -57,23 +57,20 @@ Create a week-by-week plan for the semester.
    - Link: <url>
    - Why: <why this resource>
 
-2. **Secondary resource:** <documentation, videos, practice site>
+2. **Backup resource:** <documentation, videos, practice site>
    - Link: <url>
-   - Why: <why this resource>
 
-### Weekly Plan
+### Plan for the Next 2 Weeks
 
-| Week | Goal | Resource | Deliverable |
-|------|------|----------|-------------|
-| 1 | <specific goal> | <which resource> | <what you'll produce> |
-| 2 | <specific goal> | <which resource> | <what you'll produce> |
-| ... | ... | ... | ... |
+| Week | Goal | What I'll Do |
+|------|------|--------------|
+| 1 | <specific goal> | <concrete action> |
+| 2 | <specific goal> | <concrete action> |
 
 ### This Week's Commitment
 
-**Resource:** <specific resource to start with>
-**Goal:** <what you'll complete by next week>
-**Time commitment:** <hours per week>
+**What I'll do:** <specific action>
+**Time:** <hours this week>
 ```
 
 > [!IMPORTANT]
@@ -89,7 +86,7 @@ Create a week-by-week plan for the semester.
 Examples:
 - "Complete X exercises per week"
 - "Build one small project per month"
-- "Pass certification exam by end of semester"
+- "Complete the first 3 chapters of the tutorial"
 
 ### Accountability
 
@@ -129,7 +126,7 @@ Your partner should review for:
 - [ ] One skill chosen with clear justification
 - [ ] Success criteria defined (how you'll know you've learned it)
 - [ ] At least 2 learning resources identified with links
-- [ ] Week-by-week plan for at least 8 weeks
+- [ ] 2-week plan with concrete goals
 - [ ] "This week's commitment" is specific and actionable
 - [ ] Progress tracking method defined
 - [ ] Potential obstacles identified with mitigations
@@ -139,7 +136,7 @@ Your partner should review for:
 
 As a reviewer, assess:
 
-- [ ] Is the skill choice realistic for one semester?
+- [ ] Is the skill choice realistic to start learning now?
 - [ ] Are the weekly goals achievable alongside other courses?
 - [ ] Is "this week's commitment" specific enough to act on?
 - [ ] Are the resources actually good? (Quick check the links)
@@ -159,7 +156,7 @@ Most people fail at skill development because they:
 2. Don't track progress
 3. Don't have accountability
 
-This exercise addresses all three. The plan you create here can actually guide your semester.
+This exercise addresses all three. The plan you create here can actually guide your learning.
 
 ---
 
