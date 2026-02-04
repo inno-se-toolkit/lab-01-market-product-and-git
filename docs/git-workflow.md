@@ -47,30 +47,33 @@ A **branch** is a separate line of development where you make changes without af
 
 A **commit** saves a snapshot of your changes with a message explaining what you did.
 
+**Commit message format:**
+```
+<type>: <short description>
+```
+
+Use one of these types:
+- `docs:` - documentation changes (most common in this lab)
+- `feat:` - new functionality
+- `fix:` - bug fixes
+
+Examples:
+- `docs: add architecture diagram`
+- `docs: describe main components`
+- `fix: correct typo in deployment section`
+
 **Using VS Code:**
 1. Make changes to files.
 2. In the `Activity Bar`, click `Source Control`.
 3. Click `+` next to changed files to stage them.
-4. Write a commit message following [Conventional Commits](https://www.conventionalcommits.org/).
+4. Write a commit message (see format above).
 5. Click `Commit`.
 
 **Using terminal:**
 ```bash
 git add <file1> <file2>
-git commit -m "feat: add product description"
+git commit -m "docs: add product description"
 ```
-
-**Commit message format:**
-```
-<type>: <short description>
-
-Types: feat, fix, docs, style, refactor, test, chore
-```
-
-Examples:
-- `feat: add architecture diagram`
-- `docs: describe main components`
-- `fix: correct typo in deployment section`
 
 **Why?** Good commit messages help others (and future you) understand what changed and why.
 

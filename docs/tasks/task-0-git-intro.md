@@ -52,14 +52,14 @@ git checkout -b add-contributor-<your-name>
 **Using VS Code:**
 1. Go to `Source Control` in the Activity Bar.
 2. Stage `CONTRIBUTORS.md` by clicking `+`.
-3. Write commit message: `feat: add my name to contributors`
+3. Write commit message: `docs: add my name to contributors`
 4. Click `Commit`.
 5. Click `Sync Changes` or use terminal: `git push -u origin <branch-name>`
 
 **Using terminal:**
 ```bash
 git add CONTRIBUTORS.md
-git commit -m "feat: add my name to contributors"
+git commit -m "docs: add my name to contributors"
 git push -u origin <branch-name>
 ```
 
@@ -94,7 +94,7 @@ Once approved:
 - [ ] Issue created with correct title
 - [ ] Branch created from the issue
 - [ ] Name added to `CONTRIBUTORS.md`
-- [ ] Commit message follows Conventional Commits format
+- [ ] Commit message follows `type: description` format
 - [ ] PR created and linked to issue
 - [ ] Partner reviewed and approved
 
@@ -103,7 +103,7 @@ Once approved:
 As a reviewer, verify:
 
 - [ ] The contributor's name is added to `CONTRIBUTORS.md`
-- [ ] The commit message follows `feat: ...` format
+- [ ] The commit message follows `docs: ...` format
 - [ ] The PR description links to the issue
 
 If everything looks good, approve the PR.
