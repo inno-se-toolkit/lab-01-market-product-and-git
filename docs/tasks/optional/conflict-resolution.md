@@ -20,9 +20,10 @@ Title: `[Optional] Deep dive: Merge conflicts`
 
 ### 2. Learn About Conflicts
 
-Complete some exercises on [Learn Git Branching](https://learngitbranching.js.org/):
-- Focus on the merge and rebase sections
-- Pay attention to how conflicts are visualized
+Complete these exercises on [Learn Git Branching](https://learngitbranching.js.org/):
+
+1. **Main** → **Ramping Up** → **Merging in Git** (level 2)
+2. **Main** → **Ramping Up** → **Rebase Introduction** (level 3)
 
 ### 3. Create a Conflict
 
