@@ -22,7 +22,7 @@
 
 6. <details> <summary>(Optional) Protect your <code>main</code> branch (click to expand).</summary>
 
-   In the repo -> `Settings` -> `Code and automation` -> `Add branch ruleset`:
+   In the repo -> `Settings` -> `Code and automation` -> `Rules` -> `Rulesets` -> `New ruleset` -> `Add branch ruleset`:
    1. `Ruleset Name`: `push`
    2. `Enforcement status`: `Active`
    3. `Target branches` -> `Add target` -> `Include default branch`
