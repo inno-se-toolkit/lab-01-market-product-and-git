@@ -1,7 +1,6 @@
 {
   "recommendations": [
     // ## Need for this lab
-
     // Preview Markdown files in VS Code like on GitHub.
     "bierner.markdown-checkbox",
     "bierner.markdown-emoji",
@@ -9,53 +8,36 @@
     "bierner.markdown-mermaid",
     "saeris.markdown-github-alerts",
     "bierner.markdown-preview-github-styles",
-
     // Lint Markdown files.
     "DavidAnson.vscode-markdownlint",
-
     // Edit Markdown files.
     "yzhang.markdown-all-in-one",
-
     // Work with GitHub pull requests.
     "github.vscode-pull-request-github",
-
     // ## May need in this lab
-
     // Work with Git.
     "eamodio.gitlens",
-
     // Coding agent.
     "qwenlm.qwen-code-vscode-ide-companion",
-
     // Work with PlantUML diagrams.
     "jebbs.plantuml",
-
     // Use Draw.io inside VS Code.
     "hediet.vscode-drawio",
-
     // Use Excalidraw diagrams inside VS Code.
     "pomdtr.excalidraw-editor",
-
     // Use the C4 DSL inside VS Code.
     "systemticks.c4-dsl-extension",
-
     // ## Useful but optional
-
     // Show errors, warnings, and other diagnostics in-line.
     "usernamehw.errorlens",
-
     // Outline TODOs in files.
     "gruntfuggly.todo-tree",
-
     // Connect to a friend's VS Code and edit files together.
     "ms-vsliveshare.vsliveshare",
-
     // Format files.
     "esbenp.prettier-vscode",
-
     // Edit Markdown tables.
     "takumii.markdowntable",
-
     // YAML language support.
     "redhat.vscode-yaml"
   ]
