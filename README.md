@@ -1,4 +1,4 @@
-# Lab 01 – Product architecture, tech roles, & your skills
+# Lab 01 – Product architecture, tech roles, and your skills
 
 Questions:
 
@@ -15,9 +15,29 @@ Along the way, you'll practice using `Git` and `GitHub` — essential tools for 
 
 ## Table of contents
 
+<!-- no toc -->
 - [Learning outcomes](#learning-outcomes)
+- [Learning advice](#learning-advice)
 - [Tasks overview](#tasks-overview)
 - [Tasks](#tasks)
+
+## Learning advice
+
+You need to read the lab tasks and docs to understand them. Do what you can by yourself.
+
+When stuck or unsure, feel free to ask an LLM:
+
+> Give me directions on how to solve this task. I want to maximize learning.
+
+You can also ask LLMs to explain the logic behind tasks if you don't understand it. Example:
+
+> Why is this task important? What exactly do they want to teach me?
+
+Remember: Use LLMs as a tool to enhance your understanding, not replace it.
+
+Always critically evaluate the information provided by LLMs.
+
+Verify this information against credible sources such as official documentation, course materials, and what you observe in reality.
 
 ## Learning outcomes
 
@@ -38,7 +58,7 @@ After this lab, you should be able to say:
 ## Tasks overview
 
 ```console
-□ Setup   — fork repo, find a partner
+□ Setup   — fork repo (repository), find a partner
 □ Task 0  — practice git workflow
 □ Task 1  — analyze a product's architecture
 □ Task 2  — map components to tech roles
@@ -81,7 +101,7 @@ Complete all optional tasks to leave up to 1 hour early (lab is 3 hours):
 3. [Create a release](./lab/tasks/optional/task-3.md#create-a-release)
 4. [Plan skill development](./lab/tasks/optional/task-4.md#plan-skill-development)
 
-### Additional Resources on Git
+## Additional Resources on `Git`
 
 - Read this [tutorial](https://hackmd.io/@aabounegm/SWP-git) to learn about `Git`, `Github`, and other `Git` workflows.
 - Short videos to build your mental model of how `Git` works:
