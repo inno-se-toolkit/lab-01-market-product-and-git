@@ -172,3 +172,4 @@ Next, in the repo -> `Issues`, filter by the label:
 2. In the `Filter labels` input area, write `task`.
 3. Click the suggested label.
 4. You'll see all issues that have this label.
+test — проверка настроек (Fri Feb  6 15:12:23     2026)
