@@ -25,6 +25,7 @@ Below, we explain how to set up coding agents based on the [`Qwen3-Coder`](https
        - [Open the `Command Palette`](../appendix/vs-code.md#open-the-command-palette).
        - Run `Qwen Code: Open`.
 1. Write `/login` in the chat.
+1. Write `@<file-name>` to refer to the file `<file-name>`.
 
 ## Set up `GitHub Copilot Chat` with `Qwen3-Coder`
 
