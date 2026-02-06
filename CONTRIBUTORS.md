@@ -9,4 +9,4 @@ Use commit message: "docs: add <your-username> to contributors"
 <!--
 ...
 -->
-- @<Belks53>
+- @Belks53
