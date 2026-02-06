@@ -10,7 +10,7 @@ You'll complete tasks individually, but review each other's work via pull reques
 ## Set up a fork
 
 1. Create a `GitHub` account.
-2. Fork this repo to your `GitHub` account and make your fork public.
+2. Fork this repo (repository) to your `GitHub` account and make your fork public.
 3. Continue your work in the forked repo.
 4. In the repo -> `Settings` -> `General` -> `Features`, enable `Issues`.
 
