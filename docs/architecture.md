@@ -1,3 +1,8 @@
+## Product Choice
+**Product name:** Telegram
+**Website:** [https://telegram.org](https://telegram.org)
+**Description:** A cloud-based mobile and desktop messaging app with a focus on security and speed.
+
 ## Main components
 
 ![Telegram Component Diagram](./diagrams/out/telegram/component-diagram/Component%20Diagram.svg)
