@@ -44,3 +44,4 @@ The system is hosted in the Yandex Cloud Infrastructure. The core services run i
 
 * How does the system protect user payment data during a transaction with external banks?
 * What happens to the "Dispatch Service" logic if the GPS signal of a driver is lost for a few minutes?
+  
