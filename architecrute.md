@@ -5,7 +5,7 @@ Telegram is a fast, secure, cloud-based messaging app.
 
 
 ## Main components
-![Telegram Component Diagram](../../../docs/diagrams/out/telegram/component-diagram/Component%20Diagram.svg)
+![Telegram Component Diagram](docs/diagrams/out/telegram/component-diagram/Component%20Diagram.svg)
 docs/diagrams/src/telegram
 /component-diagram.puml
 
@@ -22,7 +22,7 @@ Backend  component for real time monitoring and updates.
 
 
 ## Data flow
-![Telegram Component Diagram](../../../docs/diagrams/out/telegram/sequence-diagram/Sequence%20Diagram.svg)
+![Telegram Component Diagram](docs/diagrams/out/telegram/sequence-diagram/Sequence%20Diagram.svg)
 docs/diagrams/src/telegram/sequence-diagram.puml
 Media Upload (Encrypted Parts)
 Photo gets transfered from Client to Data & Middleware
@@ -34,7 +34,7 @@ MTProto Gateway sends stream file data to media service sends:
 
 
 ## Deployment
-![Telegram Component Diagram](../../../docs/diagrams/out/telegram/sequence-diagram/Deployment%20Diagram.svg)
+![Telegram Component Diagram](docs/diagrams/out/telegram/sequence-diagram/Deployment%20Diagram.svg)
 https://github.com/ivan84201/lab-01-market-product-and-git/blob/main/docs/diagrams/src/telegram/deployment-diagram.puml
 Backend components are deployed in Telegram Global Infrastructure (Primary DC), frontend components are deployed on client devices, External Bot Logic is deployed on Third-Party servers.
 
