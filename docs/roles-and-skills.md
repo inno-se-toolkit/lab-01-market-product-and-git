@@ -24,7 +24,6 @@
   - Implements authentication and authorization mechanisms.
   - Conducts security audits and vulnerability assessments.
   - Ensures secure data storage and transmission.
----
 
 ## Common skills across roles
 
