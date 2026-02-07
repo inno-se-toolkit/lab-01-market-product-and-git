@@ -25,8 +25,8 @@
 
 ## Deployments
 
-![Deployment diagram](out\yandex-go\architecture-deployment\DeploymentDiagram.svg)
-[Link to plantUML source code](src\yandex-go\architecture-deployment.puml)
+![Deployment diagram](out/yandex-go/architecture-deployment/DeploymentDiagram.svg)
+[Link to plantUML source code](src/yandex-go/architecture-deployment.puml)
 
 The backend microservices of Yandex Go are primarily deployed in Docker containers orchestrated by Kubernetes (K8s) clusters. These clusters reside within Yandex Cloud infrastructure and internal private data centers to ensure high availability and geographic redundancy. The client-side logic is deployed natively on iOS and Android devices, while static asssets (like map tiles and UI icons) are distributed through a Content Delivery Network (CDN) to minimize latency for users across different regions.
 
