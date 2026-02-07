@@ -6,7 +6,7 @@ Yandex is a search engine provided by a Russian corporation
 ## Main components
 ![Yandex Component Diagram](https://github.com/TimLih-h/SET-Lab01/blob/TimLih-h-patch-1/docs/diagrams/out/yandex-go/architecture-component/Component%20Diagram.svg)
 
-Yandex Component Diagram Code: docs\diagrams\src\yandex-go\architecture-component.puml
+[Yandex Component Diagram Code](docs\diagrams\src\yandex-go\architecture-component.puml)
 
 Mobile App (User communication level for smartphones)
 Web App (User communication level for browsers)
@@ -17,7 +17,7 @@ Maps & Routig Service (redirects maps and routing operation requests)
 ## Data flow
 ![Yandex Sequence Diagram](https://github.com/TimLih-h/SET-Lab01/blob/TimLih-h-patch-1/docs/diagrams/out/yandex-go/architecture-sequence/Sequence%20Diagram.svg)
 
-Yandex Component Diagram Code: docs\diagrams\src\yandex-go\architecture-sequence.puml
+[Yandex Component Diagram Code](docs\diagrams\src\yandex-go\architecture-sequence.puml)
 
 App Initialization & Auth process:
 1)User opens the app
@@ -31,7 +31,7 @@ App Initialization & Auth process:
 
 ![Yandex Deployment Diagram](https://github.com/TimLih-h/SET-Lab01/blob/TimLih-h-patch-1/docs/diagrams/out/yandex-go/architecture-deployment/Deployment%20Diagram.svg)
 
-Yandex Deployment Diagram Code: docs\diagrams\src\yandex-go\architecture-deployment.puml
+[Yandex Deployment Diagram Code](docs\diagrams\src\yandex-go\architecture-deployment.puml)
 
 Components are deployed into Yandex Cloud Infrastructure.
 
