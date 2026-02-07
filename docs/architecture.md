@@ -24,7 +24,8 @@ in cache and persists message with the help of Sharded DB. The ID gets assigned 
 is sent to the client side. After that, the UI gets updated, so that the user can see the message. 
 
 ## Deployment
-
+![Telegram Deployment Diagram](docs/diagrams/out/telegram/sequence-diagram/Sequence%20Diagram.svg)
+Link to the PlantUML code for the diagram: ![code](docs/diagrams/src/telegram/deployment-diagram.puml)
 ## Assumptions
 
 ## Open questions
