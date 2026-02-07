@@ -6,7 +6,7 @@ Short description of the product: A cloud-based instant messaging app with end-t
 ##Main components
 ![Telegram Component Diagram](../docs/diagrams/out/telegram/component-diagram/Component%20Diagram.svg)
 
-PlantUML code: ![Telegram Component Diagram Code](../docs/diagrams/src/telegram/component-diagram.puml)
+ ![PlantUML code:](../docs/diagrams/src/telegram/component-diagram.puml)
 
 Selected components:
 1. MTProto Gateway (DC Entry)
@@ -27,7 +27,7 @@ Selected components:
 ##Data flow
 ![Telegram Media Message Flow (Upload & Propagate)](../docs/diagrams/out/telegram/deployment-diagram/Deployment%20Diagram.svg)
 
-PlantUML code: ../../../docs/diagrams/src/telegram/sequence-diagram/media-message-flow.puml
+![PlantUML code:](../docs/diagrams/src/telegram/sequence-diagram.puml)
 
 Group selected: “2. Send Message (with File Ref)”
 After media is uploaded and stored (Step 1), the client sends a sendMessage RPC with the file ID. The MTProto Gateway validates the session (Auth Service), then the Message Service persists the message (to Inbox/Outbox) and increments sequence numbers. It returns an assigned message ID and triggers asynchronous event publishing via Kafka.
@@ -44,7 +44,7 @@ Data exchanged: file ID, peer ID, session token, message metadata, sequence numb
 ##Deployment
 ![Telegram Deployment Diagram (Physical View)](../docs/diagrams/out/telegram/sequence-diagram/Sequence%20Diagram.svg)
 
-PlantUML code: ../../../docs/diagrams/src/telegram/deployment-diagram/deployment-diagram.puml
+![PlantUML code:](../docs/diagrams/src/telegram/deployment-diagram.puml)
 
 Briefly describe where the components are deployed:
 Clients (mobile/desktop/web) connect to the Edge / Connection Layer (MTProto Gateway + Bot API Frontend) in Telegram’s global infrastructure (Primary DC). Core services (Auth, Message, Media, Channel, Push) run as pods in the Compute Cluster (App Engine), communicating via RPC (TL-Schema). State Cache (Redis), Sharded Chat DB, and Distributed File System (DFS) reside in dedicated Storage Clusters, with DFS likely spanning multiple regions. Event Bus (Kafka) runs in a separate cluster for async propagation. External integrations (SMS, Push, 3rd-party bots) communicate over HTTPS/Webhooks or SMPP.
