@@ -4,7 +4,7 @@ Link to the product's website: https://telegram.org
 Short description of the product: A cloud-based instant messaging app with end-to-end encryption for secret chats, supporting text, media, voice, and group communication across platforms.
 
 ##Main components
-![Telegram Component Diagram]([../../../docs/diagrams/out/telegram/component-diagram/Component%20Diagram.svg](https://github.com/Fedos113/lab-01-fork_fedor/blob/main/docs/diagrams/out/telegram/component-diagram/Component%20Diagram.svg))
+![Telegram Component Diagram](../../docs/diagrams/out/telegram/component-diagram/Component%20Diagram.svg)
 
 PlantUML code: ../../../docs/diagrams/src/telegram/component-diagram/component-diagram.puml
 
@@ -25,7 +25,7 @@ Selected components:
    Orchestrates end-to-end encrypted (E2EE) secret chats using client-side key exchange; bypasses cloud storage and relies on direct peer-to-peer or relayed encrypted payloads.
 
 ##Data flow
-![Telegram Media Message Flow (Upload & Propagate)]([../../../docs/diagrams/out/telegram/sequence-diagram/Media%20Message%20Flow.svg](https://github.com/Fedos113/lab-01-fork_fedor/blob/main/docs/diagrams/out/telegram/sequence-diagram/Sequence%20Diagram.svg))
+![Telegram Media Message Flow (Upload & Propagate)](https://github.com/Fedos113/lab-01-fork_fedor/blob/main/docs/diagrams/out/telegram/deployment-diagram/Deployment%20Diagram.svg)
 
 PlantUML code: ../../../docs/diagrams/src/telegram/sequence-diagram/media-message-flow.puml
 
