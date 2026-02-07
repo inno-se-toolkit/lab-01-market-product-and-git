@@ -4,7 +4,7 @@ Link to the product's website: https://telegram.org
 Short description of the product: A cloud-based instant messaging app with end-to-end encryption for secret chats, supporting text, media, voice, and group communication across platforms.
 
 ##Main components
-![Telegram Component Diagram](../../docs/diagrams/out/telegram/component-diagram/Component%20Diagram.svg)
+![Telegram Component Diagram](../docs/diagrams/out/telegram/component-diagram/Component%20Diagram.svg)
 
 PlantUML code: ../../../docs/diagrams/src/telegram/component-diagram/component-diagram.puml
 
