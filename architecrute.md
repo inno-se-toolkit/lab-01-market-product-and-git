@@ -34,7 +34,7 @@ MTProto Gateway sends stream file data to media service sends:
 
 
 ## Deployment
-![Telegram Component Diagram](docs/diagrams/out/telegram/sequence-diagram/Deployment%20Diagram.svg)
+![Telegram Component Diagram](docs/diagrams/out/telegram/deployment-diagram/Deployment%20Diagram.svg)
 https://github.com/ivan84201/lab-01-market-product-and-git/blob/main/docs/diagrams/src/telegram/deployment-diagram.puml
 Backend components are deployed in Telegram Global Infrastructure (Primary DC), frontend components are deployed on client devices, External Bot Logic is deployed on Third-Party servers.
 
