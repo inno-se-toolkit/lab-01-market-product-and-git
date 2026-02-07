@@ -1,3 +1,29 @@
+## Components and roles
+
+- **Client Applications (Web, Mobile, Desktop)**
+  - Frontend Engineer
+  - UI/UX Designer
+
+- **API Gateway**
+  - Backend Engineer
+  - DevOps Engineer
+
+- **Messaging Service**
+  - Backend Engineer
+  - Distributed Systems Engineer
+
+- **Media Storage Service**
+  - Backend Engineer
+  - Database Engineer
+
+- **Authentication & Authorization Service**
+  - Security Engineer
+  - Backend Engineer
+
+- **Infrastructure & Deployment**
+  - DevOps Engineer
+  - Security Engineer
+
 ## Roles and responsibilities
 
 - **Frontend Engineer**
