@@ -1,3 +1,5 @@
+# Roles and skills mapping
+
 ## Components and roles
 
 - **Client Applications (Web, Mobile, Desktop)**
@@ -24,40 +26,42 @@
   - DevOps Engineer
   - Security Engineer
 
+
 ## Roles and responsibilities
 
 - **Frontend Engineer**
-  - Develops and maintains the web and mobile user interfaces.
-  - Implements UI logic and ensures responsive design.
-  - Collaborates with backend engineers to integrate APIs.
+  - Develops and maintains web, mobile, and desktop user interfaces.
+  - Implements UI logic and ensures responsive, accessible design.
+  - Integrates frontend applications with backend APIs.
 
 - **Backend Engineer**
   - Designs and implements server-side business logic.
   - Builds and maintains REST/gRPC APIs.
-  - Ensures performance, scalability, and security of services.
+  - Ensures scalability, performance, and reliability of backend services.
 
 - **DevOps Engineer**
-  - Manages CI/CD pipelines and deployment workflows.
-  - Monitors system health and uptime.
-  - Automates infrastructure using cloud and IaC tools.
+  - Manages CI/CD pipelines and automated deployments.
+  - Monitors system health, uptime, and performance.
+  - Automates infrastructure using cloud platforms and IaC tools.
 
 - **Database Engineer**
   - Designs and optimizes database schemas.
   - Ensures data integrity, backups, and replication.
-  - Tunes queries for performance and scalability.
+  - Tunes queries for high performance and scalability.
 
 - **Security Engineer**
   - Implements authentication and authorization mechanisms.
   - Conducts security audits and vulnerability assessments.
-  - Ensures secure data storage and transmission.
+  - Ensures secure data storage and encrypted communication.
+
 
 ## Common skills across roles
 
-The following skills are shared across most technical roles working on Telegram:
+The following skills are shared across most technical roles working on the product:
 
-- Git and collaborative development workflows
-- Understanding of distributed systems fundamentals
-- Debugging and problem-solving skills
-- Knowledge of security best practices
-- Experience with cloud platforms and containerization
-- Ability to read and understand system architecture documentation
+- Git and collaborative development workflows for version control and code reviews
+- Understanding of distributed systems fundamentals for scalable architectures
+- Debugging and problem-solving skills for identifying and fixing issues
+- Knowledge of security best practices to protect user data and services
+- Experience with cloud platforms and containerization technologies
+- Ability to read, understand, and work with system architecture documentation
