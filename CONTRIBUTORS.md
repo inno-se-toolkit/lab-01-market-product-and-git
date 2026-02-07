@@ -5,4 +5,4 @@ Students who completed this lab:
 <!--
 ...
 -->
-- @<Artemii Gorelov>
+- <Artemii Gorelov>
