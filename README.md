@@ -116,3 +116,4 @@ Complete all optional tasks to leave up to 1 hour early (lab is 3 hours):
 - Practice on [Learn Git Branching](https://learngitbranching.js.org/) (focus on merge/rebase and conflicts).
 - Read about [`GitHub flow`](https://docs.github.com/en/get-started/using-github/github-flow).
 - Learn about [`Conventional Commits`](https://www.conventionalcommits.org/en/v1.0.0/) for commit message formatting.
+- Setup complete — Polina
