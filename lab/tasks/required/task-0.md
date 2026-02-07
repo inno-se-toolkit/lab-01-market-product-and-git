@@ -69,9 +69,9 @@ git push -u origin add-contributor
 
 ## Acceptance criteria
 
-- [ ] Issue created
-- [ ] Username added to `CONTRIBUTORS.md`
-- [ ] Commit message follows `type: description` format
-- [ ] PR created and linked to issue
-- [ ] Partner reviewed and approved
-- [ ] PR merged
+- [x] Issue created
+- [x] Username added to `CONTRIBUTORS.md`
+- [x] Commit message follows `type: description` format
+- [x] PR created and linked to issue
+- [x] Partner reviewed and approved
+- [x] PR merged
