@@ -1,6 +1,6 @@
 name: Lab Task
 description: Track work for a specific lab task
-title: "[Task] <short title>"
+title: "[Task] Add my name to contributors"
 labels: ["task"]
 body:
   - type: textarea
