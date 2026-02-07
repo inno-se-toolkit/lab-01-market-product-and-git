@@ -24,8 +24,15 @@ in cache and persists message with the help of Sharded DB. The ID gets assigned 
 is sent to the client side. After that, the UI gets updated, so that the user can see the message. 
 
 ## Deployment
-![Telegram Deployment Diagram](docs/diagrams/out/telegram/sequence-diagram/Sequence%20Diagram.svg)
+![Telegram Deployment Diagram](docs/diagrams/out/telegram/deployment-diagram/Deployment Diagram.svg)
 Link to the PlantUML code for the diagram: ![code](docs/diagrams/src/telegram/deployment-diagram.puml)
+
+The used protocols: TCP, Native DB Proto, HTTP/2 (APNs/FCM), etc.
+
 ## Assumptions
+I assume the cloud storage system implements deduplication to optimize storage costs for shared media files.
+Also, I assume that MTProto is responsible for data security.
 
 ## Open questions
+1. How exactly does MTProto Gateway manages all the operations it is used in?
+2. In what way was the engine for Sharded Chat DB customized?
