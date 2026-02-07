@@ -42,8 +42,8 @@ Basic layout elements in `VS Code`:
 
 Docs:
 
-- [docs](https://code.visualstudio.com/docs/getstarted/userinterface#_basic-layout)
-- [docs](https://code.visualstudio.com/api/ux-guidelines/overview#items)
+- [docs 1](https://code.visualstudio.com/docs/getstarted/userinterface#_basic-layout)
+- [docs 2](https://code.visualstudio.com/api/ux-guidelines/overview#items)
 
 ## `Activity Bar`
 

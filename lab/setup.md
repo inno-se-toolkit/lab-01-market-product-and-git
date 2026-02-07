@@ -5,19 +5,22 @@
 1. Find a classmate to be your partner for this lab.
 2. Sit together.
 
-You'll complete tasks individually, but review each other's work via pull requests (PRs).
-
 ## Set up a fork
 
 1. Create a `GitHub` account.
-2. Fork this repo (repository) to your `GitHub` account and make your fork public.
+2. [Fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo#forking-a-repository) this repo (repository) to your `GitHub` account and make your fork public.
 3. Continue your work in the forked repo.
 4. In the repo -> `Settings` -> `General` -> `Features`, enable `Issues`.
 
 ## Add a classmate as a collaborator
 
-1. In the repo `Settings` -> `Collaborators` -> `Add people`, add your partner as a collaborator.
-2. Make sure your collaborator has accepted the invitation sent to their email.
+In your repo `Settings` -> `Collaborators` -> `Add people`, add your partner as a collaborator.
+
+Your partner should add you as a collaborator in their repo.
+
+Make sure your collaborator has accepted the invitation sent to their email.
+
+It's OK if your collaborator can't change `Settings` in your repo.
 
 ## Protect your `main` branch
 
@@ -55,7 +58,7 @@ git config --global user.name '<your-name>'
 git config --global user.email '<your-email>'
 ```
 
-> ![NOTE]
+> [!NOTE]
 > Replace `<your-name>` with a name and `<your-email>` with an email that you want to see in the commits.
 >
 > See [docs](https://git-scm.com/docs/git-config#Documentation/git-config.txt-username).

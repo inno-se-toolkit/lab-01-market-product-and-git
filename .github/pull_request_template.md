@@ -2,7 +2,8 @@
 
 ## Summary
 
-<!-- What does this PR do? (2–3 sentences max). 
+<!-- What does this PR do?
+Write under the commented-out lines (2–3 sentences max). 
 Example:
 - Closes #<issue-number>
 -->

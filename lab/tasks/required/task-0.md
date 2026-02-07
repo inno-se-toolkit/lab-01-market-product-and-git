@@ -8,6 +8,9 @@
 
 ## Steps
 
+> [!IMPORTANT]
+> Read [`Git workflow`](../git-workflow.md).
+
 ### 1. Create an issue
 
 Title: `[Task] Add my name to contributors`
