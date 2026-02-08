@@ -70,15 +70,25 @@ Provide:
 >
 > According to the [`C4 model`](https://c4model.com/abstractions/component), a *component* is a grouping of related functionality encapsulated behind a well-defined interface.
 
+> [!IMPORTANT]
+> Use paths relative to the `docs/architecture.md` file when embedding images and providing links.
+>
+> Quick intro:
+>
+> - `.` - the current directory.
+> - `..` - parent directory.
+> - `./file` - file in the current directory.
+> - `../file` - file in the parent directory.
+
 > [!TIP]
 > Use auto-completion for paths.
 >
-> 1. Write `![Telegram Component Diagram]()`.
-> 2. Inside parentheses `()`, start typing `./`.
-> 3. Use suggestions to continue the path.
+> 1. [Open `docs/architecture.md`](../../appendix/vs-code.md#open-a-file).
+> 2. Write `![Telegram Component Diagram]()`.
+> 3. Inside parentheses `()`, start typing `./`.
+> 4. Use suggestions to continue the path.
 
 > [!IMPORTANT]
-> Use paths relative to the **`docs/architecture.md`** file.
 >
 > Replace space in the path with `%20` (see [URL encoding](https://en.wikipedia.org/wiki/Percent-encoding)).
 
