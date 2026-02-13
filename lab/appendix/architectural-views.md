@@ -8,7 +8,7 @@ We use `PlantUML` [component diagrams](https://plantuml.com/component-diagram).
 
 "Balls" (circle) are *provided interfaces*, "sockets" (open ring) are *required interfaces* (see [explanation](https://stackoverflow.com/a/78941132), [how to draw them](https://stackoverflow.com/questions/55077828/using-required-provided-interfaces-in-component-diagrams-plantuml/57134601#57134601)).
 
-Learn more about the component diagrams on [wiki](https://en.wikipedia.org/wiki/Component_diagram).
+sadasdasdadasdasdadLearn more about the component diagrams on [wiki](https://en.wikipedia.org/wiki/Component_diagram).
 
 ## Sequence diagram
 
