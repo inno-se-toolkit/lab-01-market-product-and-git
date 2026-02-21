@@ -1,0 +1,18 @@
+# IDE (PyCharm)
+.idea/
+*.iws
+*.iml
+
+# Python (пригодится для Lab 02)
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Lab specific (если есть временные файлы)
+*.log
